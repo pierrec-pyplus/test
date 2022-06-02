@@ -31,3 +31,7 @@ jobs:
         run: |
           pylama .
 
+      - name: pytest
+        run: |
+          py.test -s -v -x simple_script.py
+
